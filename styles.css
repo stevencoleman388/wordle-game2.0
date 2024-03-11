@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  padding: 1em;
+  font-size: clamp(0.5rem, 2.5vmin, 1.5rem);
+  background-color: rgb(222, 222, 112);
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 58px;
+  color: rgb(237, 85, 85);
+}
+.header2 {
+  font-size: 45px;
+  text-align: center;
+  margin-bottom: 0px;
+  color: rgb(237, 85, 85);
+}
+.container {
+  flex-grow: 0.5;
+  font-size: inherit;
+  grid-template-columns: span 2;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+}
+.key-board input {
+  font-size: 40px;
+  text-transform: uppercase;
+  cursor: pointer;
+  width: 55px;
+  height: 53px;
+  text-align: center;
+  border-radius: 6px;
+  background-color: gray;
+}
+.key-board {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(auto, 1.25em));
+  position: relative;
+  grid-auto-rows: 3.2em;
+  gap: 0.25em;
+  justify-content: center;
+}
+
+.enter {
+  position: absolute;
+  top: 425px;
+  left: 245px;
+  font-size: 25px;
+  padding: 0.5em;
+  border-radius: 20%;
+  font-weight: bolder;
+}
+#first-input {
+  pointer-events: auto;
+}
+.input-value1 {
+  pointer-events: none;
+}
+.input-value2 {
+  pointer-events: none;
+}
+.input-value3 {
+  pointer-events: none;
+}
+.input-value4 {
+  pointer-events: none;
+}
+.input-value5 {
+  pointer-events: none;
+}
+.input-value6 {
+  pointer-events: none;
+}
